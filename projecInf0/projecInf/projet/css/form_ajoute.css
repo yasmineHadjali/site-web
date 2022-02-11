@@ -1,0 +1,75 @@
+body
+{
+    font-family: Tahoma, Geneva, 'SF PRO DISPLAY', sans-serif, Verdana, 'Segoe UI';
+    
+    background-color: gainsboro;
+    background-size: cover;
+}
+a
+{
+    color: #797f9c;
+    margin-left: -5px;
+}
+.forget
+{
+    background: #f7f7f7;
+    padding: 40px;
+    width: 376px;
+    height: 531px;
+    margin-left: 445px;
+    margin-top: 6px;
+    border-radius: 9px;
+}
+h2
+{
+    margin-top: 3px;
+    margin-left: -22px;
+}
+input[type=text],input[type=number]
+{
+    width: 240px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    text-align: center;
+    color: black;
+}
+textarea
+{
+    width: 240px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    text-align: center;
+    color: black;
+}
+input[type=submit]
+{
+    border: none;
+    background: #007bff;
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 180px;
+    margin-left: -5px;
+}
+
+
+form {
+    text-align: center;
+    margin-top: -31px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,83 @@
+body{
+background: #f7f7f7;
+font-family: Tahoma, Geneva, 'SF PRO DISPLAY', sans-serif, Verdana, 'Segoe UI';
+
+}
+table {
+    border-collapse: collapse;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  
+}
+
+
+
+th {
+    text-align: inherit;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+input[type=submit]
+{
+    border: none;
+    background: #28a745;
+    border-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 180px;
+    margin-left: 0px;
+}
+input[value="Fermer la page"]
+{
+    border: none;
+    background:  #007bff;
+    border-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 180px;
+    margin-left: 0px;
+    margin-top: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-left: 454px;
+}
+img#img2 {
+    width: 17px;
+    margin-left: 23px;
+    height: 24px;
+}
+img#img3 {
+    width: 17px;
+    margin-left: 17px;
+    height: 24px;
+}
+#msg{
+    margin-right: 100px;
+}
+#retour{
+    color: #797f9c;
+    
+}

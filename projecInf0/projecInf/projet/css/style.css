@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro: 400,900 & display = swap');  
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    display: block;
+    font-family:   'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 18px;
+    
+}
+.mobnav-subarrow {
+	display: none;
+}
+.sf-menu {
+    float: none;
+    width: auto;
+    display: table;
+    margin: 0;
+	float:left;
+}
+#mobnav-btn {
+	display: none;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	background-color: #000;
+	color: white;
+	padding: 16px 15px;
+	cursor: pointer;
+	display: block;
+	width: 40%;
+}
+
+#mobnav-btn {
+    display: none !important;
+}
+.row {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 777;
+}
+.menu-wrap {
+    background: #000;
+    display: table;
+    width: 100%;
+    position: 5px;
+    position: relative;
+    top: 35px;
+	z-index:888;
+}
+
+.conte-menu{
+    width: 20%;
+    min-width: 211px;
+    margin-left: 30px;
+    margin-top: 120px;
+    display: inline-block;
+    font-family: 'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 18px;
+    
+    
+    
+}
+.conte-menu .menu{
+    width: 100%;
+    background:#f7f7f7;
+    
+  
+  
+}
+.conte-menu .menu{
+    width: 200px;
+    height: 1000px;
+ 
+
+}
+
+.conte-menu .menu li a:hover{
+   
+    background: rgba(0,0,0,.8);
+    color:white;
+    
+}
+ .conte-menu .menu .icon.left{
+     font-size: 20px;
+    line-height: 16px;
+ }
+ .conte-menu .menu .icon.right{
+    font-size: 12px;
+   line-height: 16px;
+
+}
+ .conte-menu .menu .icon.deco{
+    
+    float: left;
+    margin-right: 10px;
+
+ }
+ .conte-menu .menu .icon.dow{
+    
+    float: right;
+    margin-left: 5px;
+
+ }
+ .conte-menu .menu ul{
+    
+    display: none;
+
+ }
+ .conte-menu .menu ul li a{
+    background:  #dbdbdb;
+  
+ }
+ 
+ .menu{
+    border:0 ;
+    border-radius: 20px;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+} 
+
+
+
+
+
+/*prod---------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro: 400,900 & display = swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -150px;
+    margin-left: -150px;
+}
+body{
+    background: white;
+    font-family:"Didact Gothic", sans-serif;
+    font-size: 16px;
+    color: #292929;
+    line-height: 1.7em;
+    font-weight: 400;
+    
+  
+
+
+
+}
+
+.container {
+    background: white;
+    width: 100%;
+    padding-right: 138px;
+    padding-left: 150px;
+    margin-right: auto;
+    margin-left: auto;}
+    
+
+
+.section-bg{
+    background: white;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.section-title{
+    margin-bottom: 28px;
+    margin-left: 28px;
+    text-align: center;
+align-items: center;
+color: #616e72;
+
+}
+
+
+
+
+.section-title h2{
+    position: relative;
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 1;
+    text-transform: capitalize;
+    display: inline-block;
+    font-family:"Didact Gothic", sans-serif;
+}
+.single-product{
+    box-shadow: -2px -2px 8px white ,
+                -2px -2px 12px rgba(255,255,255,0.5),
+               inset 2px 2px 4px rgba(255,255,255,0.1),
+                2px 2px 8px rgba(0,0,0 ,-0.15)  ;
+    padding: 40px;           
+    margin-bottom: 50px;
+    border-style:ridge;
+    background: #ffffff;
+    height: 325px;
+}
+.col-xl-3 .col-lg-3 .col-md-6 .col-sm-6{
+    background: white;
+}
+
+
+
+
+
+.single-product .product-thumb{
+    margin-bottom: 1px;
+    margin-left:0%;
+}
+
+img{
+    
+    display: inline-block;
+    max-width: 100%;
+
+   
+
+}
+.single-product .product-title{
+    margin-bottom: 5px;
+    text-align:center;
+    align-items: center;
+
+
+}
+.single-product .product-prix{
+    margin-bottom: 5px;
+    text-align:center;
+    align-items: center;
+
+
+}
+
+.single-product .product-title h3{
+    font-family:   'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+
+}
+.single-product .product-prix h3{
+    font-family:   'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+
+}
+.single-product .product-title h3 a{
+    color:#292929;
+    text-decoration: none;
+
+
+
+}
+
+
+.single-product .product-title h3 a:hover{
+    columns: #7289ab;}
+    
+.single-product:hover{
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.9),
+     -2px -2px 12px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+     2px 2px 8px rgba(255, 255, 255, 0.15)  ;
+    padding: 40px;           
+    margin-bottom: 50px;
+    background: white;
+    height: 300px;
+   }
+
+img:hover{
+    width: 98%;
+
+}
+.product-btns{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #292929;
+
+}
+.btn-small{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0;
+    text-transform: uppercase;
+    padding: 5px 13px;
+    border-radius: 9px;
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.9),
+     -2px -2px 12px rgba(255, 255, 255, 0.5),
+   inset 2px 2px 4px rgba(255,255,255,0.1),
+   2px 2px 8px rgba(0,0,0 ,0.15)  ;
+   color: #fff;
+   background-color: #363636;
+   border-color: #ffffff;
+    transform: 0.4s;
+}
+
+.btn-round{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height:45px ;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.9),
+     -2px -2px 12px rgba(255, 255, 255, 0.5),
+   inset 2px 2px 4px rgba(255,255,255,0.1),
+   2px 2px 8px rgba(0,0,0 ,0.15)  ;
+    background: #9ec3cf;
+    transform: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:867px){
+   
+    
+    a{
+        text-align: none;
+        color:black;
+        margin-top: 15px;
+    }
+    
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .conte-menu{
+        width: 20%;
+        min-width: 200px;
+        margin-left: 15px;
+        margin-top: 140px;
+        display: inline-block;
+        font-family: 'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 18px;
+        
+        
+    }
+    .conte-menu .menu{
+        width: 100%;
+      
+      
+    }
+    .conte-menu .menu{
+        width: 200px;
+        height: 1000px;
+     
+    
+    }
+    .conte-menu ul{
+        list-style: none;
+    }
+    .conte-menu .menu li a{
+        color: #000;
+        display: block;
+        padding:15px 20px;
+        direction: none;
+        text-decoration:none;
+      
+    }
+        
+    
+    .conte-menu .menu li a:hover{
+       
+        background: rgba(0,0,0,.8);
+        color: white;
+        
+    }
+     .conte-menu .menu .icon.left{
+         font-size: 20px;
+        line-height: 16px;
+     }
+     .conte-menu .menu .icon.right{
+        font-size: 12px;
+       line-height: 16px;
+    
+    }
+     .conte-menu .menu .icon.deco{
+        
+        float: left;
+        margin-right: 10px;
+    
+     }
+     .conte-menu .menu .icon.dow{
+        
+        float: right;
+        margin-left: 5px;
+    
+     }
+     .conte-menu .menu ul{
+        
+        display: none;
+    
+     }
+     .conte-menu .menu ul li a{
+        background: rgb(204, 204, 202);
+     }
+     
+     .menu{
+         border:0;
+     }
+     h1{
+        font-family: 'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(24, 42, 61);}
+        .container {
+            background: white;
+            width: 100%;
+            padding-right: 0px;
+            padding-left: 20px;
+            margin-right: auto;
+            margin-left: auto;}
+            
+        
+    
+    
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body.container-2 {
+    font-size: 15px;
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    margin: 0px 0px 0px 0px;
+    background: white;
+    border-style: solid;
+    padding: 0px 20px  ;
+}
+form, .content {
+    width: 400px;
+    margin: 0px auto;
+    padding: 32px;
+    justify-content: center;
+    background: #ffffff;
+   border-style:solid;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+h3 {
+    margin-left: 108px;
+    margin-bottom: 7px;
+}
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input{
+    border: none;
+    background: none;
+    border-bottom: 2px solid darkslategray;
+    width: 357px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+    padding:17px;
+}
+input#datenaiss {
+    border: none;
+    background: none;
+    border-bottom: 2px solid darkslategray;
+    border-radius: 0px;
+    width: 324px;
+}
+button.btn {
+    font-size: 15px;
+    margin-left: 73px;
+    margin-bottom: -7px;
+    margin-top: 21px;
+    width: 177px;
+    height: 38px;
+    border-radius: 8px;
+    border: 1px solid #eeeeee;
+    background: #363636;
+    color: #fff;
+}
+textarea {
+    display: inline;
+    margin-top: 9px;
+    margin-left: 0px;
+    height: 70px;
+    width: 103%;
+}
+.error{
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #bb2320;
+    color: #bb2320;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success{
+    color: #5daf5f;
+    background: #dff0d8;
+    border: 1px solid #5baf5f;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   
+    font-size: 17px;
+    font-size: 15px;
+    display:block;
+    background: white;
+}
+.content{
+    height: 500px;
+}
+
+.header-1{
+    font-family: 'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    display: block;
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: white;
+    text-align:center;
+    /* border: 1px solid #b0c4de; */
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+.header-1 h1{
+    font-family: 'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: -100px;
+}
+
+div#profile {
+    height: 500px;
+    font-family: 'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    display: block;
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    
+    height: 184px;
+}
+
+b#welcome {
+    font-size: 18px;
+ 
+   font-family: 'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-family: 'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  color: rgb(95, 92, 92);
+}
+
+.error{
+    width: 30%;
+  
+  margin-bottom: 55px;
+  
+  margin: 0px auto;
+   
+ padding: 10px;
+    
+border: 1px solid #a94442;
+  
+  color: #a94442;
+  
+  background: #f2dede;
+ 
+   text-align: left;
+}
+
+.success{
+   color: #3c763d;
+
+    background: #dff0d8;
+ 
+   border: 1px solid #3c763d;
+ 
+   margin-bottom: 0px;
+}
+
+a{
+color:white;
+}
+
+button.bt {
+ margin-left: 53px;
+ margin-bottom: -7px;
+ margin-top: 52px;
+ width: 177px;
+ height: 38px;
+ border-radius: 8px;
+ background:  #007bff;
+ color: white;
+ border: 1px solid #007bff;
+ font-size: 15px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+
+    div#profile {
+        height: 500px;
+        font-family: 'SF Pro Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        display: block;
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px;
+        
+        background: white;
+        border-radius: 0px 0px 10px 10px;
+        
+        height: 184px;
+    }
+    button.bt {
+        margin-left: 71px;
+       
+       margin-bottom: -7px;
+        
+       margin-top: 52px;
+        
+       width: 177px;
+           
+       height: 38px;
+          
+        border-radius: 8px;
+        background:  #007bff;
+        color: white;
+        
+          border: 1px solid #007bff;
+        
+            
+       }
+       
+
+
+    
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body.container {
+    background: white;
+}
+form, .content {
+    width: 392px;
+    margin: 0px auto;
+    padding: 33px;
+    background: #f7f7f7;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 147px;
+    margin-bottom: 17px;
+}
+h3 {
+   
+   margin-top: 19px;
+    margin-bottom: 20px;
+}
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+label.ch {
+    margin-bottom: -1px;
+    margin-top: 18px;
+}
+.input-group input{
+  
+   border: none;
+  
+   background: none;
+   
+   border-bottom: 2px solid darkslategray;
+ 
+   width: 324px;
+  
+   border-top: 82px;
+ 
+   height: 30px;
+  
+   padding: 5px 10px;
+ 
+   font-size: 14px;
+   
+   padding:17px;
+
+}
+    button.btn {
+    
+    margin-left: 60px;
+
+    margin-bottom: 26px;
+  
+    margin-top: 21px;
+  
+    width: 177px;
+  
+    height: 38px;
+  
+    border-radius: 8px;
+    border: 1px solid #007bff;
+    background:#363636
+    ; 
+    color: #fff;
+}
+.error{
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success{
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+#error_msg{
+width: 50%;
+margin: 5px auto;
+height: 30px;
+border: 1px solid #FF0000;
+background: #FFB9BB;
+color: #FF0000;
+text-align: center;
+padding_top: 10px;
+
+}

@@ -1,0 +1,103 @@
+body
+{
+    font-family: Tahoma, Geneva, 'SF PRO DISPLAY', sans-serif, Verdana, 'Segoe UI';
+    
+    background-color: white;
+    background-size: cover;
+}
+ .for a
+{ color: #007bff;
+    
+    margin-left: 5px;
+}
+.forget
+{
+    background: #f7f7f7;
+    padding: 40px;
+    width: 376px;
+    height: 531px;
+    margin: 0 auto;
+    border-radius: 9px;
+}
+.for h2
+{
+    margin-top: 3px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+ .for input[type=text],input[type=number]
+{
+    width: 240px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    text-align: center;
+    color: black;
+}
+textarea
+{
+    width: 240px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    text-align: center;
+    color: black;
+}
+ .for input[type=submit]
+{
+    border: none;
+    background: #007bff;
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 180px;
+    margin-left: -5px;
+    border: #007bff;
+    color: white;
+    
+   
+}
+placeholder{
+    text-align: left;
+    
+}
+
+.for {
+    text-align: center;
+    margin-top: -31px;
+    margin-bottom: 8px;
+}
+
+
+
+
+@media screen and (max-width:800px){
+    body{
+        padding: 50px;
+    }
+    .forget
+{
+    background: #f7f7f7;
+    padding: 40px;
+    width: 340px;
+    height: 531px;
+    margin: 0 auto;
+   /* margin-left: 445px;
+    margin-top: 6px;*/
+    border-radius: 9px;
+}
+}

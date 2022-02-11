@@ -1,0 +1,205 @@
+body{
+ 
+  font-family: Tahoma, Geneva, 'SF PRO DISPLAY', sans-serif, Verdana, 'Segoe UI';
+  background-color: gainsboro;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+*{
+ margin: 0px;
+  padding: 0px;
+}
+header{
+  /*position: fixed;*/
+  background: #ffffff;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+
+.left_area h3{
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  margin-left: 44px;
+}
+
+.left_area span{
+  color: black;
+  margin-left:20%;
+}
+
+.logout_btn {
+    padding: 4px;
+    background: #ffffff;
+    text-decoration: none;
+    float: right;
+    margin-top: -34px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.logout_btn:hover{
+  background: #0B87A6;
+  color: black;
+font-size: 22px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+nav > ul {
+  list-style: none;
+  top: 37px;
+  position: absolute;
+  width: 100%;
+}
+ label > img {
+   width: 210px;
+   overflow:hidden;
+    margin-top: -4px;
+    border-radius:50px;
+   
+ }
+ input[type="checkbox"]{
+   display: none;
+ }
+ nav{
+ background-color: rgb(255, 255, 255);
+ width: 350px;
+ height: 676px;
+ left: 0px;
+ position: absolute;
+ transition: all 0.5s;
+ margin-top: 0px;
+ }
+ input[type="checkbox"]:checked ~ nav{
+transform: translateX(-350px);
+
+ }
+nav > ul > li > a{
+
+display: block;
+padding: 20px 5px;
+color: rgb(0, 0, 0);
+font-size: larger;
+margin-left: 42px;
+
+}
+li:hover{
+background-color: gainsboro; /*rgb(176, 224, 230)*/
+font-size: 22px;
+}
+nav > ul > li >a:hover{
+color: black;
+font-size: 22px;
+}
+label{
+padding: 15px;
+position: absolute;
+z-index: 1;
+margin-top: -69px;
+}
+#img1 {
+    width: 40px;
+    overflow: hidden;
+    margin-top: -4px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.formulaire_message
+{background: #D7D5D4;
+padding: 30px;
+display: none;
+height: 616px;
+margin-left: 350px;
+margin-top: 0px;
+width: 914px;
+}
+h2 {
+    margin-top: 111px;
+    margin-left: 232px;
+    color: white
+}
+
+form > a {
+    margin-left: 166px;
+    margin-bottom: 9px;
+}
+input, select, textarea{
+  display: block;
+  margin-top: 19px;
+  width: 600px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-family: 'Play', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 10px 0;
+  transition: border 0.5s;
+  color: white;
+}
+#ajout{
+color: black;
+margin-top: 8px;
+    margin-left: 0px;
+}
+
+select > option {color: #757575;font-family: 'Play', sans-serif;font-size: 16px;font-weight: 800;border: none;}
+input[type=button] {
+    border: none;
+    display: inline;
+    background: white;
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    margin-top: 79px;
+    margin-left: 280px;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 185px;
+}
+
+#img {
+    width: 40px;
+    overflow: hidden;
+    margin-top: 6px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.descp {
+    display: flex;
+}
+
+#img2 {
+    width: 40px;
+    overflow: hidden;
+    margin-top: 6px;
+    border-radius: 50px;
+    margin-left: 17px;
+    vertical-align: middle;
+    margin-right: 227px;
+}
+div > a {
+    text-decoration: none;
+}
+div > h1 {
+    margin-left: 132px;
+    color: white;
+}
+
+

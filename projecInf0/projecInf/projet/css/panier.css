@@ -1,0 +1,138 @@
+body {font-family: arial;} 
+
+* {box-sizing: border-box;}
+
+/* Bouton d'ouverture en bas de page */
+.open-btn {
+  background-color: #D2B48C;
+  border: none;
+  color: white;
+  padding: 16px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  border-radius: 50%;
+  /* height: 50px; */
+  /* width: 50px; */
+}
+.open-btn: before 
+
+/* Darker background on mouse-over */
+.open-btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+
+/* Le formulaire popup - caché par défaut */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: no border;
+  z-index: 9;
+}
+
+/* Le formulaire */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color:#F5DEB3;
+
+}
+
+/* Champs de saisie */
+ .input_dyn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: white;
+  font-family:arial;  
+  resize:none;
+
+}
+
+/*question optionnel*/
+.form-container input[name=question_optional]{
+  height:auto;
+}
+
+/*spam*/
+.form-container input[name=spam]{
+  width:70px;
+}
+
+
+
+
+/* Cas de focus */
+ .input_dyn:focus  {
+  background-color: #ddd;
+  outline: none; 
+  
+}
+
+/* Bouton envoyer */
+.form-container .btn {
+  background-color: #D7AEFF ;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  margin-top:10px;
+}
+
+/* Bouton annuler */
+.form-container .cancel {
+  background-color: #E0C0FF;
+}
+
+/* Hover boutons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+h2{  font-size:25px;  
+     text-align:left; 
+     orphans: 3;
+     widows: 3;
+     font-weight: 500;
+     line-height: 1.1;
+	 page-break-after: avoid;
+     color: #010147; 
+	 border:none;
+	 clear:both;
+	 
+	 }
+span {
+     font-size:15px;
+     color:red;	 
+	 }
+
+/*Trait en poitillé*/
+.form-container .pointillé { 
+     background-color: #FFFFFF;
+     color: #FFFFFF; 
+     width:100%; 
+     border:none; 
+     border-bottom: 
+     dashed #CCCCCC 1px;
+	 margin-top:10px;
+ }	 
+
+
+input:invalid+span:after {
+  content: '✖';
+  padding-left: 5px;
+}
+
+input:valid+span:after {
+  content: '✓';
+  padding-left: 5px;
+}

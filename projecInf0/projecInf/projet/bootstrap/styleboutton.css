@@ -1,0 +1,19 @@
+.boutton{
+background-color: #252f86;
+font-size :22px;
+color :White;
+padding :14px 20px;
+margin :8px 0;
+margin-left:35%;
+border :None;
+cursor :pointer ;
+width :30%;
+transition:0.5s;
+
+
+}
+.boutton:hover{
+	transform:scale(1.05);
+	box-shadow:6px 6px 25px 4px;
+}
+
